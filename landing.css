@@ -1,0 +1,292 @@
+* {
+  margin: 0;
+  padding: 0;
+  transition: all 0.4s ease;
+}
+
+body {
+  font-family: Arial, sans-serif;
+  font-size: 16px;
+  /* line-height: 1.5; */
+  margin: 0;
+}
+
+header {
+  background-color: #333;
+  color: #fff;
+  display: flex;
+  justify-content: space-between;
+  /* position: fixed; */
+  width: 100%;
+}
+
+nav {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background-color: #131313;
+  padding-block: 0.8rem;
+  padding-inline: 8%;
+  max-height: 4rem;
+  min-height: 3.3rem;
+  width: 100vw;
+}
+
+nav ul {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  display: flex;
+  text-align: left;
+}
+
+nav li {
+  margin: 0 10px;
+}
+
+nav a {
+  display: inline-block;
+  color: #fff;
+  text-decoration: none;
+  padding: 10px;
+}
+
+nav a:hover {
+  border-radius: 2rem;
+  background-color: #fff;
+  color: #333;
+}
+
+.container1 {
+  display: flex;
+  flex-direction: column;
+  background-image: url(./jonah-pettrich-V-dfcNnb9OU-unsplash.jpg);
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+  height: 90vh;
+  width: 100vw;
+  text-align: center;
+  align-items: center;
+  justify-content: center;
+}
+
+.texth1 {
+  color: #fffdfd;
+  font-size: 3rem;
+  margin-top: 2px;
+}
+
+.textp1 {
+  color: #795b7a;
+  font-size: 1.5rem;
+  margin-top: 2px;
+}
+
+.container1 a {
+  text-decoration: none;
+  font-size: 1.3rem;
+  background: rgb(129, 21, 127);
+  border: 3px solid rgb(88, 13, 86);
+  height: max-content;
+  padding: 0.8rem;
+  margin: 1rem;
+  border-radius: 2rem;
+  /* border: solid 2px white; */
+  color: white;
+  transition: all 0.2s ease;
+}
+
+.container1 a:hover {
+  text-decoration: none;
+  transform: scale(1.2);
+  color: #ffffff;
+  transition: 0.5s;
+  background: transparent;
+  border: 2px solid white;
+}
+
+/* #banner {
+  margin: 2rem;
+} */
+
+.mlogo {
+  height: 2.3rem;
+  width: 1.7rem;
+  align-items: center;
+  justify-content: center;
+  margin: 0.35rem;
+}
+
+.heading {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.product-card {
+  display: flexbox;
+  height: 30rem;
+  width: 335px;
+  padding: 47px 47px;
+  background: #a80ebca5;
+  border-radius: 20px;
+  margin: 15px;
+  position: relative;
+  text-align: center;
+  justify-content: center;
+  align-items: center;
+}
+.ho:hover {
+  background-color: #d050e1a5;
+}
+#featured {
+  margin: 0;
+  left: 0;
+  background: #101010;
+  width: 100vw;
+  padding: 100px 0px;
+}
+.featured-products {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: fit-content;
+}
+.texth2 {
+  color: white;
+  font-size: 2.5rem;
+  width: 100vw;
+  margin: 30px auto;
+  text-align: center;
+}
+.i {
+  display: block;
+  object-fit: cover;
+  border-radius: 2rem;
+  text-align: center;
+  color: #e800f9;
+  height: 20rem;
+  width: 15rem;
+  margin-inline: auto;
+  margin-bottom: 2rem;
+}
+
+.product-card a {
+  position: absolute;
+  text-decoration: none;
+  background-color: rgb(28, 23, 29);
+  border: 2px groved gray;
+  padding: 0.6rem;
+  color: rgb(116, 13, 157);
+  border-radius: 2rem;
+  margin: 1rem 1rem 1rem -2rem;
+}
+.product-card a:hover {
+  background: transparent;
+  border: 2px solid white;
+  color: white;
+}
+
+.featured-products h3 {
+  font-size: 2rem;
+  color: #d890d8;
+}
+
+footer {
+  background-color: #1d1c1c;
+  position: relative;
+  width: 100vw;
+  height: 400px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+footer p:nth-child(1) {
+  font-size: 30px;
+  color: white;
+  margin-bottom: 20px;
+  font-weight: bold;
+}
+
+footer p:nth-child(2) {
+  color: white;
+  font-size: 17px;
+  width: 500px;
+  text-align: center;
+  line-height: 26px;
+}
+
+.social {
+  display: flex;
+  margin: 4px;
+}
+
+.social a {
+  width: 45px;
+  height: 45px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: #c717e7;
+  border-radius: 50%;
+  margin: 22px 10px;
+  color: white;
+  text-decoration: none;
+  font-size: 20px;
+}
+
+.social a:hover {
+  transform: scale(1.3);
+  transition: 0.3s;
+}
+
+.social img {
+  height: 2.4rem;
+  width: 2.4rem;
+}
+
+#about-us {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  justify-content: center;
+  margin-inline: auto;
+  align-items: center;
+  background-color: #333;
+}
+
+#about-us h2 {
+  margin: 1rem;
+  font-size: 2.5rem;
+  color: white;
+}
+#about-us p {
+  margin-inline: 14rem;
+  margin-block: 3rem;
+  color: rgb(180, 168, 168);
+}
+
+#about-us button {
+  text-decoration: none;
+  font-size: 1.3rem;
+  background: rgb(129, 21, 127);
+  border: 3px solid rgb(88, 13, 86);
+  height: max-content;
+  padding: 0.8rem;
+  margin: 1rem;
+  border-radius: 2rem;
+  /* border: solid 2px white; */
+  color: white;
+  transition: all 0.2s ease;
+}
+
+#about-us button:hover {
+  text-decoration: none;
+  transform: scale(1.2);
+  color: #ffffff;
+  transition: 0.5s;
+  background-color: transparent;
+  border: 2px solid white;
+}
